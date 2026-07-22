@@ -1,0 +1,36 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0f172a;color:#fff;line-height:1.6}
+.hero{position:relative;min-height:100vh;background:linear-gradient(135deg,#0f172a,#1e293b)}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.35)}
+nav{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:20px 8%}
+nav h1{color:#fbbf24;font-size:1.8rem}
+.hero-content{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:50px;padding:60px 8%;flex-wrap:wrap}
+.cover img{width:320px;border-radius:20px;box-shadow:0 15px 40px rgba(0,0,0,.5)}
+.text{max-width:520px}
+.text h2{font-size:3rem;margin-bottom:20px}
+.text p{font-size:1.1rem;color:#cbd5e1;margin-bottom:25px}
+.price{display:inline-block;background:#f59e0b;color:#111827;font-size:2rem;font-weight:bold;padding:12px 24px;border-radius:12px;margin-bottom:25px}
+.actions{display:flex;gap:15px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 24px;border-radius:10px;text-decoration:none;font-weight:bold;transition:.3s}
+.primary{background:#22c55e;color:#fff}
+.primary:hover{background:#16a34a;transform:translateY(-2px)}
+.secondary{border:2px solid #fff;color:#fff}
+.secondary:hover{background:#fff;color:#111827}
+.section{padding:80px 8%;text-align:center}
+.section h2{font-size:2.3rem;margin-bottom:40px;color:#fbbf24}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:25px}
+.card{background:#1e293b;padding:30px;border-radius:18px;box-shadow:0 8px 25px rgba(0,0,0,.3)}
+.card h3{margin-bottom:15px;color:#fff}
+.dark{background:#111827}
+.features{list-style:none;max-width:700px;margin:auto;text-align:left}
+.features li{padding:15px 0;border-bottom:1px solid #334155}
+.steps{display:flex;justify-content:center;gap:25px;flex-wrap:wrap}
+.step{background:#1e293b;padding:30px;border-radius:18px;width:220px}
+.step span{display:inline-flex;width:60px;height:60px;border-radius:50%;background:#f59e0b;color:#111827;align-items:center;justify-content:center;font-size:1.5rem;font-weight:bold;margin-bottom:15px}
+.contact .btn{margin-top:20px}
+footer{background:#020617;padding:25px;text-align:center;color:#94a3b8}
+@media(max-width:768px){
+  .text h2{font-size:2.2rem}
+  .cover img{width:250px}
+  nav{padding:20px}
+}
